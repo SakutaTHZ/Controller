@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100dvw;
+  min-height: 100dvh;
+  background: rgb(70, 70, 70);
+}
+
+.selected-button {
+  fill: cornflowerblue;
+}
+#controller-b10,
+#controller-b11 {
+  fill: cornflowerblue;
+}
