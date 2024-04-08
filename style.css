@@ -1,7 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -10,13 +12,28 @@ body {
   align-items: center;
   width: 100dvw;
   min-height: 100dvh;
-  background: rgb(70, 70, 70);
+  background: rgb(19, 19, 19);
 }
 
 .selected-button {
-  fill: cornflowerblue;
+  fill: lime;
 }
 #controller-b10,
 #controller-b11 {
-  fill: cornflowerblue;
+  fill: lime;
+}
+
+svg.controller {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.inputs {
+  width: 100dvw;
+  height: 100dvh;
+  padding: 10px;
+}
+span.input {
+  color: lime;
 }
